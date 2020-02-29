@@ -1,5 +1,5 @@
 .container{
-    margin-bottom:100px;
+    margin-bottom:70px;
 }
 .orange-bg{
     background-color: #feeae9;
@@ -19,4 +19,49 @@
     padding: 9px 25px;
     cursor: pointer;
     border-radius: 8px;
+}
+.cat-1, .cat-2, .cat-3{
+    padding: 10px 30px;
+    border-radius: 8px;
+}
+.cat-1{
+    background-image: linear-gradient(to bottom, rgb(219, 170, 64), rgb(214, 143, 10) );
+}
+.cat-2{
+    background-image: linear-gradient(to bottom, rgb(221, 112, 240), rgb(177, 11, 113));
+}
+.cat-3{
+    background-color: rgba(53, 123, 236, 0.986);
+}
+.categories h1{
+    color: white;
+
+}
+.categories img{
+    width: 100px;
+}
+
+.card{
+    border: none;
+    box-shadow: 5px 5px 10px lightgrey;
+    border-radius: 10px;
+}
+.card-footer{
+    backpack-color: white;
+    border-top: none;
+}
+#subscribe{
+    height: 300px;
+
+
+}
+#subscribe h6{
+    color: gray;
+    margin-left: 10px;
+}
+#subscribe button{
+    margin: 5px;
+}
+footer{
+    text-align: center;
 }
